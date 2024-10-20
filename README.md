@@ -1,2 +1,2 @@
-# Algorhythm-
+# Algorhythm
 Algorhythm  Practice
