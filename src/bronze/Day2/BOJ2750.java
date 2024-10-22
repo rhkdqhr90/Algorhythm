@@ -17,7 +17,7 @@ public class BOJ2750 {
         }
         result.stream().sorted().forEach(System.out::println);**/
         for (int i = 1; i < N; i++) {
-            for(int j = 0; j < N-1; j++){
+            for(int j = 0; j < N-i; j++){
                 if (a[j] > a[j + 1]) {
                     int temp = a[j];
                     a[j] = a[j+1];
